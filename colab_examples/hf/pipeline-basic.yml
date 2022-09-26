@@ -1,0 +1,8 @@
+task:
+pipeline:
+  - name: HFTokenizer
+    model-name: 'bert-base-uncased'
+  - name: HFClassifier
+    model-name: 'bert-base-uncased'
+    epochs: 10
+    batch_size: 16
